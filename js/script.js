@@ -77,6 +77,7 @@ class Puzzle {
         this.matrix[x][j] = 1 - this.matrix[x][j];
       }
     }
+    this.audioTag.currentTime = 0;
     this.audioTag.play();
   }
 
